@@ -1,0 +1,25 @@
+Data width: How many bits does a register store?
+
+Addr_width: How many bits can we use to address registers?
+
+
+
+clk: The clock signal is used to clock the registers and 
+instruct them to move to the next position. Clock is a standard input
+in most processes that deal with memory.
+
+
+addr: The addr port dictates what address we wish to talk to. Similar to
+the reg file it will dictate where we store or retrieve data to.
+
+
+data: If we are trying to write data to the memory, this is the data we are
+passing in.
+
+
+we: This is a write enable pin. If we wish to write to a register, it must be enabled.
+Versus if we want to read from a register but not write it will not be enabled.
+
+
+q: This is the data output of the memory. 1 clock cycle after setting an addr, this 
+port should read the contents of that address.

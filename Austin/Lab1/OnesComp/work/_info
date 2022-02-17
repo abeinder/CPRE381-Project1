@@ -1,0 +1,306 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dX:/CPRE381/Lab1/OnesComp
+T_opt
+!s110 1643062413
+V;6lJiIiMjlgU55>P=B=@g0
+04 11 5 work tb_mux2t1_n mixed 1
+=1-e454e855ee00-61ef248c-2a6-434c
+Z2 !s124 OEM100
+Z3 o-quiet -auto_acc_if_foreign -work work +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1643062711
+VAcho46F4ghPn>:W[nM2nR0
+04 12 5 work tb_ones_comp mixed 1
+=1-e454e855ee00-61ef25b5-37e-3be0
+R2
+R3
+R4
+n@_opt1
+R5
+R1
+T_opt2
+!s110 1643063213
+VcAB6hY`M:hFhFCh0?CkC_0
+04 13 5 work tb_ones_comp2 mixed 1
+=1-e454e855ee00-61ef27ac-e4-4258
+R2
+R3
+R4
+n@_opt2
+R5
+Einvg
+Z6 w1575899276
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 13
+R1
+Z9 8invg.vhd
+Z10 Finvg.vhd
+l0
+L23 1
+V2XafnXdoM<1OezT9JV[@G1
+!s100 _XK?_^5z0Rm1<k12?;5R?2
+Z11 OL;C;2021.2;73
+33
+Z12 !s110 1643063198
+!i10b 1
+Z13 !s108 1643063198.000000
+Z14 !s90 -reportprogress|300|-2008|-work|work|invg.vhd|ones_comp_behav.vhd|ones_comp_struct.vhd|tb_ones_comp.vhd|tb_ones_comp2.vhd|
+Z15 !s107 tb_ones_comp2.vhd|tb_ones_comp.vhd|ones_comp_struct.vhd|ones_comp_behav.vhd|invg.vhd|
+!i113 0
+Z16 o-2008 -work work
+Z17 tExplicit 1 CvgOpt 0
+Adataflow
+R7
+R8
+DEx4 work 4 invg 0 22 2XafnXdoM<1OezT9JV[@G1
+!i122 13
+l31
+L30 6
+VNcija>Ub?6Q;i;J59XKQg2
+!s100 bk7I76o8e1LURdoZEQb8H0
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Eones_comp_behav
+Z18 w1643062844
+R7
+R8
+!i122 13
+R1
+Z19 8ones_comp_behav.vhd
+Z20 Fones_comp_behav.vhd
+l0
+Z21 L21 1
+VghJ4N;?^CdDm06M2l7jSl2
+!s100 hjXYZVe8@V8cdGN[;RX3o1
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Adataflow
+R7
+R8
+DEx4 work 15 ones_comp_behav 0 22 ghJ4N;?^CdDm06M2l7jSl2
+!i122 13
+l36
+L28 16
+V7`6cE_YC[<V>JNin<:?FJ1
+!s100 LRI?KP6>cR?>O0`[Ejz=R3
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Eones_comp_struct
+Z22 w1643062839
+R7
+R8
+!i122 13
+R1
+Z23 8ones_comp_struct.vhd
+Z24 Fones_comp_struct.vhd
+l0
+R21
+Vzilm[kP:>F4fj>Jg4^_7R0
+!s100 l7I>QL30lgjiC_?lbDH[o2
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Astructural
+R7
+R8
+DEx4 work 16 ones_comp_struct 0 22 zilm[kP:>F4fj>Jg4^_7R0
+!i122 13
+l36
+L28 18
+VKe5K`RHToV^lh:7zXGiBo2
+!s100 ?dl=4lK1=eKAc0<KhB7g42
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Etb_mux2t1_n
+w1643062360
+Z25 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z26 DPx4 ieee 16 std_logic_textio 0 22 8]8<fKiYoHe;_IDO3kmNH2
+R7
+R8
+!i122 5
+R1
+Z27 8tb_ones_comp.vhd
+Z28 Ftb_ones_comp.vhd
+l0
+Z29 L22 1
+Vi^907hNB229Wn=IKJcK:W3
+!s100 N_0;^5c@F^7XBOI<SMKKa2
+R11
+33
+!s110 1643062364
+!i10b 1
+!s108 1643062364.000000
+Z30 !s90 -reportprogress|300|-2008|-work|work|invg.vhd|ones_comp_behav.vhd|ones_comp_struct.vhd|tb_ones_comp.vhd|
+Z31 !s107 tb_ones_comp.vhd|ones_comp_struct.vhd|ones_comp_behav.vhd|invg.vhd|
+!i113 0
+R16
+R17
+Amixed
+w1643062504
+R25
+R26
+R7
+R8
+DEx4 work 11 tb_mux2t1_n 0 22 i^907hNB229Wn=IKJcK:W3
+!i122 6
+l51
+Z32 L26 67
+VZa]>1oG0gVH6=I8U4ARoI3
+!s100 Q=71`0`a_Dm<na`JGCM1b0
+R11
+33
+!s110 1643062510
+!i10b 1
+!s108 1643062510.000000
+R30
+R31
+!i113 0
+R16
+R17
+Etb_ones_comp
+Z33 w1643062872
+R25
+R26
+R7
+R8
+!i122 13
+R1
+R27
+R28
+l0
+R29
+VH?bRhK47_TI4JH4gB?S?R0
+!s100 7HfbZ[1Jl9naU4JNlIkeY3
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Amixed
+R25
+R26
+R7
+R8
+DEx4 work 12 tb_ones_comp 0 22 H?bRhK47_TI4JH4gB?S?R0
+!i122 13
+l51
+R32
+V^Zgm4mAG?HL`IT3725Ml43
+!s100 T^k:g<[6Ofc@8log5Q59n0
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Etb_ones_comp2
+Z34 w1643063195
+R25
+R26
+R7
+R8
+!i122 13
+R1
+Z35 8tb_ones_comp2.vhd
+Z36 Ftb_ones_comp2.vhd
+l0
+R29
+VbWllHU6m?@63HG0fhB@KF0
+!s100 nMTQ8DBA125CIR;TgI>1Q2
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Amixed
+R25
+R26
+R7
+R8
+DEx4 work 13 tb_ones_comp2 0 22 bWllHU6m?@63HG0fhB@KF0
+!i122 13
+l51
+R32
+VVhLC6>;62c8<6]V:Bd:8M3
+!s100 fbRDX0?Ga?]jhYB`g2CCX3
+R11
+33
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17

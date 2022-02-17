@@ -1,0 +1,18 @@
+What instructions require some value to be sign extended?
+addi
+slti
+lb-8bit
+lh-16bit
+
+What instructions need to be zero extended?
+addiu
+sltiu
+lbu
+lhu
+
+What are the different extender components that would be 
+required by a MIPS processor?
+You would need an extender that can either sign or zero extend,
+and you would need a version that could do so for either 8
+or 16 bit inputs.
+

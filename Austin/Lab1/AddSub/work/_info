@@ -1,0 +1,532 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+R0
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dX:/CPRE381/Lab1/AddSub
+T_opt
+!s110 1643603985
+V[^I6XoCZAd80YDf23FegM2
+Z2 04 10 5 work tb_add_sub mixed 1
+=1-0050569bdf6c-61f7680e-1c3-b4c
+Z3 !s124 OEM100
+Z4 o-quiet -auto_acc_if_foreign -work work +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.2;73
+R1
+T_opt1
+!s110 1643658617
+VPD6lDPRI6UgHK6;zm[QBN0
+R2
+=1-0050569bfae2-61f83d74-2fd-16ac
+R3
+R4
+R5
+n@_opt1
+R6
+Eadd_sub
+Z7 w1643657580
+Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 17
+R1
+Z10 8addsub.vhd
+Z11 Faddsub.vhd
+l0
+Z12 L21 1
+VnD:4TgU@SY]@O9I@WZDR53
+!s100 WT:AF588M0o<h:^DBzINY1
+Z13 OL;C;2021.2;73
+33
+Z14 !s110 1643658589
+!i10b 1
+Z15 !s108 1643658588.000000
+Z16 !s90 -reportprogress|300|-2008|-work|work|Adder.vhd|addsub.vhd|andg2.vhd|full_adder.vhd|invg.vhd|mux2t1.vhd|mux2t1_N.vhd|ones_comp_struct.vhd|org2.vhd|ripple_carry_adder.vhd|tb_addsub.vhd|xorg2.vhd|
+Z17 !s107 xorg2.vhd|tb_addsub.vhd|ripple_carry_adder.vhd|org2.vhd|ones_comp_struct.vhd|mux2t1_N.vhd|mux2t1.vhd|invg.vhd|full_adder.vhd|andg2.vhd|addsub.vhd|Adder.vhd|
+!i113 0
+Z18 o-2008 -work work
+Z19 tExplicit 1 CvgOpt 0
+Astructure
+R8
+R9
+DEx4 work 7 add_sub 0 22 nD:4TgU@SY]@O9I@WZDR53
+!i122 17
+l70
+L30 83
+VEc]H>n;fKDXoeKm:J:Y0`1
+!s100 lfh_j:i=9PQ@LiJ8W9^mT3
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Eadder
+Z20 w1643299446
+R8
+R9
+!i122 17
+R1
+Z21 8Adder.vhd
+Z22 FAdder.vhd
+l0
+L26 1
+VnH>2AMl8oOjI:XW`Eoje11
+!s100 ?M@C[n:@^fhmgGDG`5ibH3
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Abehavior
+R8
+R9
+DEx4 work 5 adder 0 22 nH>2AMl8oOjI:XW`Eoje11
+!i122 17
+l36
+L35 11
+VenmF@Xel2X9:05QSANYAN1
+!s100 cB67aGlEFcN>h>lDnF1Sh3
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Eandg2
+Z23 w1575899276
+R8
+R9
+!i122 17
+R1
+Z24 8andg2.vhd
+Z25 Fandg2.vhd
+l0
+Z26 L23 1
+VQGUB^HK6Ifl3aZXUQBgOg3
+!s100 YT?bGzEmcFo:DlnoC^B4_0
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Adataflow
+R8
+R9
+DEx4 work 5 andg2 0 22 QGUB^HK6Ifl3aZXUQBgOg3
+!i122 17
+l32
+Z27 L31 6
+V5E?co3b^iz@?:>cbFkg6g1
+!s100 I`@Z@UBObS]<7m8bPgKUS1
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Efull_adder
+Z28 w1643657498
+R8
+R9
+!i122 17
+R1
+Z29 8full_adder.vhd
+Z30 Ffull_adder.vhd
+l0
+Z31 L20 1
+V=TlD_6V;M4Pfd2z_[HU[_3
+!s100 9KaoK<Y4?9ZWC_Zb@5`HC1
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Astructure
+R8
+R9
+DEx4 work 10 full_adder 0 22 =TlD_6V;M4Pfd2z_[HU[_3
+!i122 17
+l62
+L30 153
+V4c8LbV2o4D_b3bhMJ``[53
+!s100 <2U47:7e97Q_@d51F3_zR1
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Einvg
+R23
+R8
+R9
+!i122 17
+R1
+Z32 8invg.vhd
+Z33 Finvg.vhd
+l0
+R26
+V2XafnXdoM<1OezT9JV[@G1
+!s100 _XK?_^5z0Rm1<k12?;5R?2
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Adataflow
+R8
+R9
+DEx4 work 4 invg 0 22 2XafnXdoM<1OezT9JV[@G1
+!i122 17
+l31
+L30 6
+VNcija>Ub?6Q;i;J59XKQg2
+!s100 bk7I76o8e1LURdoZEQb8H0
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Emux2t1
+Z34 w1642968537
+R8
+R9
+!i122 17
+R1
+Z35 8mux2t1.vhd
+Z36 Fmux2t1.vhd
+l0
+R31
+VgEU4RW3iAM:Q1gbP;b_U:1
+!s100 7R09L]nD4jUa<1;Bmnb?:2
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Astructure
+R8
+R9
+DEx4 work 6 mux2t1 0 22 gEU4RW3iAM:Q1gbP;b_U:1
+!i122 17
+l61
+L29 53
+VV6DcM@0XV=a15YBnjIC4R2
+!s100 BFCm9G_<I5B<00`LOOS`k2
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Emux2t1_n
+Z37 w1643657308
+R8
+R9
+!i122 17
+R1
+Z38 8mux2t1_N.vhd
+Z39 Fmux2t1_N.vhd
+l0
+L19 1
+V;m;J<5eZf]K0VfYTea5432
+!s100 :`kaizO=BcZLdF3iN5BXD0
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Astructural
+R8
+R9
+DEx4 work 8 mux2t1_n 0 22 ;m;J<5eZf]K0VfYTea5432
+!i122 17
+l37
+L28 21
+V0MgZNz7kFWH__`HRciCEl3
+!s100 MGD<Z=S66;FX3;Egk2>891
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Eones_comp_struct
+Z40 w1643062839
+R8
+R9
+!i122 17
+R1
+Z41 8ones_comp_struct.vhd
+Z42 Fones_comp_struct.vhd
+l0
+R12
+Vzilm[kP:>F4fj>Jg4^_7R0
+!s100 l7I>QL30lgjiC_?lbDH[o2
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Astructural
+R8
+R9
+DEx4 work 16 ones_comp_struct 0 22 zilm[kP:>F4fj>Jg4^_7R0
+!i122 17
+l36
+L28 18
+VKe5K`RHToV^lh:7zXGiBo2
+!s100 ?dl=4lK1=eKAc0<KhB7g42
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Eorg2
+R23
+R8
+R9
+!i122 17
+R1
+Z43 8org2.vhd
+Z44 Forg2.vhd
+l0
+R26
+VC4IKeHT5FKZ5f?RbYGNl]3
+!s100 bGQ1F9eW^Q17OoL9h4g7z2
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Adataflow
+R8
+R9
+DEx4 work 4 org2 0 22 C4IKeHT5FKZ5f?RbYGNl]3
+!i122 17
+l32
+R27
+VN0b<=nBXF?B9Ke9cE<4l11
+!s100 h5_AzR3TdRA0a_K=dQ>mI2
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Eripple_carry_adder
+Z45 w1643657477
+R8
+R9
+!i122 17
+R1
+Z46 8ripple_carry_adder.vhd
+Z47 Fripple_carry_adder.vhd
+l0
+R31
+VIAeAk=fC`a5022<_KnTPE3
+!s100 j>YMHnhVRoQ31NlG@bMb52
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Astructure
+R8
+R9
+DEx4 work 18 ripple_carry_adder 0 22 IAeAk=fC`a5022<_KnTPE3
+!i122 17
+l46
+L30 32
+VFfNI8EgJ0Wi^5WZekRooi3
+!s100 zX3>jOHMTUO4GCJB];MhB3
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Etb_add_sub
+Z48 w1643658351
+Z49 DPx3 std 3 env 0 22 d?`1ck@NdeD@H3RZG7FgZ2
+Z50 DPx4 ieee 16 std_logic_textio 0 22 8]8<fKiYoHe;_IDO3kmNH2
+R8
+R9
+!i122 17
+R1
+Z51 8tb_addsub.vhd
+Z52 Ftb_addsub.vhd
+l0
+R26
+VRF5fU222o]FOX4=8OR^lN3
+!s100 BDT?4HcMD]4NzOWVjdLF=1
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Amixed
+R49
+R50
+R8
+R9
+DEx4 work 10 tb_add_sub 0 22 RF5fU222o]FOX4=8OR^lN3
+!i122 17
+l50
+L27 140
+VE^Ki@l3>A__nT:4]6jOXe2
+!s100 z04FIR6CgTg>35UibTNSA1
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Exorg2
+R23
+R8
+R9
+!i122 17
+R1
+Z53 8xorg2.vhd
+Z54 Fxorg2.vhd
+l0
+R26
+V_SV24R@DMO;gaA0AO=XlM2
+!s100 [hI[mXFH4_j16U;>U1Lfn2
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
+Adataflow
+R8
+R9
+DEx4 work 5 xorg2 0 22 _SV24R@DMO;gaA0AO=XlM2
+!i122 17
+l32
+R27
+VP97Sd0K4z[L0EU_l=l5JO0
+!s100 Z6[FAPS4fBLB`F?OO<AY72
+R13
+33
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R18
+R19
