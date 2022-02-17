@@ -1,0 +1,9 @@
+modelsim
+
+vcom -2008 -work work *.vhd
+
+vsim -voptargs=+acc
+
+https://surf-vhdl.com/vhdl-array/
+
+mem load -infile dmem.hex -format hex /tb_dmem/dmem/ram .

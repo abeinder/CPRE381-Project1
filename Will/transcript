@@ -1,0 +1,914 @@
+# //  Questa Sim-64
+# //  Version 2021.2 linux_x86_64 Apr 14 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+cd {/home/wngalles/CprE 381/Lab 1}
+vcom -2008 -work work *.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:28:16 on Jan 20,2022
+# vcom -reportprogress 300 -2008 -work work Adder.vhd Multiplier.vhd Reg.vhd RegLd.vhd TPU_MV_Element.vhd andg2.vhd invg.vhd mux2t1_N.vhd org2.vhd tb_TPU_MV_Element.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 10:28:16 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc tb_tpu_mv_elemen
+# vsim -voptargs="+acc" tb_tpu_mv_elemen 
+# Start time: 10:30:11 on Jan 20,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: (vopt-13130) Failed to find design unit tb_tpu_mv_elemen.
+#         Searched libraries:
+#             work
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 10:30:11 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vsim -voptargs=+acc tb_tpu_mv_element
+# vsim -voptargs="+acc" tb_tpu_mv_element 
+# Start time: 10:30:25 on Jan 20,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+vsim -voptargs=+acc tb_tpu_mv_element
+# End time: 10:31:21 on Jan 20,2022, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" tb_tpu_mv_element 
+# Start time: 10:31:21 on Jan 20,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+add wave sim:/tb_tpu_mv_element/*
+run 100 ns
+# Causality operation skipped due to absence of debug database file
+quit -sim
+# End time: 10:41:56 on Jan 20,2022, Elapsed time: 0:10:35
+# Errors: 0, Warnings: 0
+vcom -2008 -work work *.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:42:00 on Jan 20,2022
+# vcom -reportprogress 300 -2008 -work work Adder.vhd Multiplier.vhd Reg.vhd RegLd.vhd TPU_MV_Element.vhd andg2.vhd invg.vhd mux2t1_N.vhd org2.vhd tb_TPU_MV_Element.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 10:42:00 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc tb_tpu_mv_element
+# vsim -voptargs="+acc" tb_tpu_mv_element 
+# Start time: 10:42:07 on Jan 20,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+do tb_TPU_MV_Element.do
+quit -sim
+# End time: 10:49:18 on Jan 20,2022, Elapsed time: 0:07:11
+# Errors: 0, Warnings: 0
+vcom -2008 -work work *.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 10:49:43 on Jan 20,2022
+# vcom -reportprogress 300 -2008 -work work Adder.vhd Multiplier.vhd Reg.vhd RegLd.vhd TPU_MV_Element.vhd andg2.vhd invg.vhd mux2t1_N.vhd org2.vhd tb_TPU_MV_Element.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 10:49:43 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc tb_tpu_mv_element
+# vsim -voptargs="+acc" tb_tpu_mv_element 
+# Start time: 10:49:47 on Jan 20,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+do tb_TPU_MV_Element.do
+# Can't move the Now cursor.
+quit -sim
+# End time: 11:25:21 on Jan 20,2022, Elapsed time: 0:35:34
+# Errors: 0, Warnings: 0
+# Load canceled
+vcom -2008 -work work *.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 11:25:42 on Jan 20,2022
+# vcom -reportprogress 300 -2008 -work work Adder.vhd Multiplier.vhd Reg.vhd RegLd.vhd TPU_MV_Element.vhd andg2.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_TPU_MV_Element.vhd tb_mux2t1.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# ** Error: mux2t1.vhd(78): Signal "s_A1" is type std.STANDARD.INTEGER; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: mux2t1.vhd(83): Signal "s_A2" is type std.STANDARD.INTEGER; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: mux2t1.vhd(90): Signal "s_A1" is type std.STANDARD.INTEGER; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: mux2t1.vhd(91): Signal "s_A2" is type std.STANDARD.INTEGER; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Note: mux2t1.vhd(97): VHDL Compiler exiting
+# End time: 11:25:42 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -2008 -work work *.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 11:26:15 on Jan 20,2022
+# vcom -reportprogress 300 -2008 -work work Adder.vhd Multiplier.vhd Reg.vhd RegLd.vhd TPU_MV_Element.vhd andg2.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_TPU_MV_Element.vhd tb_mux2t1.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# ** Error: mux2t1.vhd(78): Signal "s_A1" is type std.STANDARD.INTEGER; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: mux2t1.vhd(83): Signal "s_A2" is type std.STANDARD.INTEGER; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: mux2t1.vhd(90): Signal "s_A1" is type std.STANDARD.INTEGER; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: mux2t1.vhd(91): Signal "s_A2" is type std.STANDARD.INTEGER; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Note: mux2t1.vhd(97): VHDL Compiler exiting
+# End time: 11:26:15 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -2008 -work work *.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 11:27:12 on Jan 20,2022
+# vcom -reportprogress 300 -2008 -work work Adder.vhd Multiplier.vhd Reg.vhd RegLd.vhd TPU_MV_Element.vhd andg2.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_TPU_MV_Element.vhd tb_mux2t1.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# ** Error: tb_mux2t1.vhd(47): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: tb_mux2t1.vhd(48): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: tb_mux2t1.vhd(49): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: tb_mux2t1.vhd(64): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: tb_mux2t1.vhd(69): Statement cannot be labeled.
+# ** Error: tb_mux2t1.vhd(99): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: tb_mux2t1.vhd(100): Integer literal 1 is not of type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: tb_mux2t1.vhd(101): Integer literal 1 is not of type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: tb_mux2t1.vhd(105): Integer literal 0 is not of type ieee.std_logic_1164.STD_LOGIC.
+# ** Note: tb_mux2t1.vhd(115): VHDL Compiler exiting
+# End time: 11:27:12 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -2008 -work work *.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 11:28:10 on Jan 20,2022
+# vcom -reportprogress 300 -2008 -work work Adder.vhd Multiplier.vhd Reg.vhd RegLd.vhd TPU_MV_Element.vhd andg2.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_TPU_MV_Element.vhd tb_mux2t1.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# ** Error: tb_mux2t1.vhd(64): near ";": (vcom-1576) expecting ',' or ')'.
+# ** Error: tb_mux2t1.vhd(69): Statement cannot be labeled.
+# ** Note: tb_mux2t1.vhd(115): VHDL Compiler exiting
+# End time: 11:28:10 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -2008 -work work *.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 11:28:25 on Jan 20,2022
+# vcom -reportprogress 300 -2008 -work work Adder.vhd Multiplier.vhd Reg.vhd RegLd.vhd TPU_MV_Element.vhd andg2.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_TPU_MV_Element.vhd tb_mux2t1.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# ** Error (suppressible): tb_mux2t1.vhd(59): (vcom-1141) Identifier "tb_mux2t1" does not identify a component declaration.
+# ** Note: tb_mux2t1.vhd(115): VHDL Compiler exiting
+# End time: 11:28:25 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# /usr/local/mentor/questasim/linux_x86_64/vcom failed.
+vcom -2008 -work work *.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 11:28:53 on Jan 20,2022
+# vcom -reportprogress 300 -2008 -work work Adder.vhd Multiplier.vhd Reg.vhd RegLd.vhd TPU_MV_Element.vhd andg2.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_TPU_MV_Element.vhd tb_mux2t1.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 11:28:53 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc tb_mux2t1.vhd
+# OpenFile tb_mux2t1.vhd
+OpenFile tb_mux2t1
+# Error opening /home/wngalles/CprE 381/Lab 1/tb_mux2t1
+# Path name '/home/wngalles/CprE 381/Lab 1/tb_mux2t1' doesn't exist.
+vcom -2008 -work work *.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 11:29:38 on Jan 20,2022
+# vcom -reportprogress 300 -2008 -work work Adder.vhd Multiplier.vhd Reg.vhd RegLd.vhd TPU_MV_Element.vhd andg2.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_TPU_MV_Element.vhd tb_mux2t1.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 11:29:38 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.mux2t1
+# vsim -voptargs="+acc" work.mux2t1 
+# Start time: 11:29:51 on Jan 20,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+add wave -position insertpoint  \
+sim:/mux2t1/i_D0
+add wave -position insertpoint  \
+sim:/mux2t1/i_D1
+add wave -position insertpoint  \
+sim:/mux2t1/i_S
+add wave -position insertpoint  \
+sim:/mux2t1/o_O
+add wave -position insertpoint  \
+sim:/mux2t1/s_IS
+add wave -position insertpoint  \
+sim:/mux2t1/s_A1
+add wave -position insertpoint  \
+sim:/mux2t1/s_A2
+run 100
+quit -sim
+# End time: 11:30:40 on Jan 20,2022, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_mux2t1
+# vsim -voptargs="+acc" work.tb_mux2t1 
+# Start time: 11:30:50 on Jan 20,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): tb_mux2t1.vhd(59): (vopt-1270) Bad default binding for component instance "DUT0: tb_mux2t1".
+#  (Component port "o_O" is not on the entity.)
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 11:30:51 on Jan 20,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vcom -2008 -work work *.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 11:32:11 on Jan 20,2022
+# vcom -reportprogress 300 -2008 -work work Adder.vhd Multiplier.vhd Reg.vhd RegLd.vhd TPU_MV_Element.vhd andg2.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_TPU_MV_Element.vhd tb_mux2t1.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 11:32:11 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_mux2t1
+# vsim -voptargs="+acc" work.tb_mux2t1 
+# Start time: 11:32:16 on Jan 20,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): tb_mux2t1.vhd(59): (vopt-1270) Bad default binding for component instance "DUT0: tb_mux2t1".
+#  (Component port "o_O" is not on the entity.)
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 11:32:17 on Jan 20,2022, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+vsim -voptargs=+acc work.tb_mux2t1
+# vsim -voptargs="+acc" work.tb_mux2t1 
+# Start time: 11:34:38 on Jan 20,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error (suppressible): tb_mux2t1.vhd(59): (vopt-1270) Bad default binding for component instance "DUT0: tb_mux2t1".
+#  (Component port "o_O" is not on the entity.)
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 11:34:38 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -2008 -work work *.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 11:36:42 on Jan 20,2022
+# vcom -reportprogress 300 -2008 -work work Adder.vhd Multiplier.vhd Reg.vhd RegLd.vhd TPU_MV_Element.vhd andg2.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_TPU_MV_Element.vhd tb_mux2t1.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 11:36:42 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc work.tb_mux2t1
+# vsim -voptargs="+acc" work.tb_mux2t1 
+# Start time: 11:36:44 on Jan 20,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_mux2t1(mixed)#1
+# Loading work.mux2t1(structure)#1
+# Loading work.invg(dataflow)#1
+# Loading work.andg2(dataflow)#1
+# Loading work.org2(dataflow)#1
+add wave -position insertpoint  \
+sim:/tb_mux2t1/CLK
+add wave -position insertpoint  \
+sim:/tb_mux2t1/reset
+add wave -position insertpoint  \
+sim:/tb_mux2t1/s_iD0
+add wave -position insertpoint  \
+sim:/tb_mux2t1/s_iD1
+add wave -position insertpoint  \
+sim:/tb_mux2t1/s_iS
+add wave -position insertpoint  \
+sim:/tb_mux2t1/s_o
+run 100
+quit -sim
+# End time: 11:45:15 on Jan 20,2022, Elapsed time: 0:08:31
+# Errors: 0, Warnings: 0
+vcom -2008 -work work *.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 11:45:20 on Jan 20,2022
+# vcom -reportprogress 300 -2008 -work work Adder.vhd Multiplier.vhd Reg.vhd RegLd.vhd TPU_MV_Element.vhd andg2.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_TPU_MV_Element.vhd tb_mux2t1.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 11:45:20 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc tb_tpu_mv_element
+# vsim -voptargs="+acc" tb_tpu_mv_element 
+# Start time: 11:45:39 on Jan 20,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+do tb_TPU_MV_Element.do
+run 100
+run 100
+run 100
+run 100
+quit-sim
+# invalid command name "quit-sim"
+quit -sim
+# End time: 11:50:28 on Jan 20,2022, Elapsed time: 0:04:49
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc tb_tpu_mv_element
+# vsim -voptargs="+acc" tb_tpu_mv_element 
+# Start time: 11:50:32 on Jan 20,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+quit -sim
+# End time: 11:50:37 on Jan 20,2022, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+vcom -2008 -work work *.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 11:50:42 on Jan 20,2022
+# vcom -reportprogress 300 -2008 -work work Adder.vhd Multiplier.vhd Reg.vhd RegLd.vhd TPU_MV_Element.vhd andg2.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_TPU_MV_Element.vhd tb_mux2t1.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 11:50:42 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc tb_tpu_mv_element
+# vsim -voptargs="+acc" tb_tpu_mv_element 
+# Start time: 11:50:46 on Jan 20,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+do tb_TPU_MV_Element.do
+run 100
+run 100
+run 100
+run 100
+run 100
+run 100
+run 100
+quit -sim
+# End time: 11:55:16 on Jan 20,2022, Elapsed time: 0:04:30
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc tb_tpu_mv_element
+# vsim -voptargs="+acc" tb_tpu_mv_element 
+# Start time: 11:55:29 on Jan 20,2022
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+do tb_TPU_MV_Element.do
+run 120
+# Can't move the Now cursor.
+quit -sim
+# End time: 11:57:33 on Jan 20,2022, Elapsed time: 0:02:04
+# Errors: 0, Warnings: 0
+vcom -2008 -work work *.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 11:57:42 on Jan 20,2022
+# vcom -reportprogress 300 -2008 -work work Adder.vhd Multiplier.vhd Reg.vhd RegLd.vhd TPU_MV_Element.vhd andg2.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_TPU_MV_Element.vhd tb_mux2t1.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 11:57:42 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc tb_tpu_mv_element
+# vsim -voptargs="+acc" tb_tpu_mv_element 
+# Start time: 11:57:45 on Jan 20,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+do tb_TPU_MV_Element.do
+run 120
+quit -sim
+# End time: 11:58:16 on Jan 20,2022, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 0
+vcom -2008 -work work *.vhd
+# QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+# Start time: 11:58:21 on Jan 20,2022
+# vcom -reportprogress 300 -2008 -work work Adder.vhd Multiplier.vhd Reg.vhd RegLd.vhd TPU_MV_Element.vhd andg2.vhd invg.vhd mux2t1.vhd mux2t1_N.vhd org2.vhd tb_TPU_MV_Element.vhd tb_mux2t1.vhd xorg2.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Adder
+# -- Compiling architecture behavior of Adder
+# -- Compiling entity Multiplier
+# -- Compiling architecture behavior of Multiplier
+# -- Compiling entity Reg
+# -- Compiling architecture behavior of Reg
+# -- Compiling entity RegLd
+# -- Compiling architecture behavior of RegLd
+# -- Compiling entity TPU_MV_Element
+# -- Compiling architecture structure of TPU_MV_Element
+# -- Compiling entity andg2
+# -- Compiling architecture dataflow of andg2
+# -- Compiling entity invg
+# -- Compiling architecture dataflow of invg
+# -- Compiling entity mux2t1
+# -- Compiling architecture structure of mux2t1
+# -- Compiling entity mux2t1_N
+# -- Compiling architecture structural of mux2t1_N
+# -- Compiling entity org2
+# -- Compiling architecture dataflow of org2
+# -- Loading package std_logic_textio
+# -- Loading package ENV
+# -- Compiling entity tb_TPU_MV_Element
+# -- Compiling architecture mixed of tb_TPU_MV_Element
+# -- Compiling entity tb_mux2t1
+# -- Compiling architecture mixed of tb_mux2t1
+# -- Compiling entity xorg2
+# -- Compiling architecture dataflow of xorg2
+# End time: 11:58:21 on Jan 20,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim -voptargs=+acc tb_tpu_mv_element
+# vsim -voptargs="+acc" tb_tpu_mv_element 
+# Start time: 11:58:24 on Jan 20,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_textio(body)
+# Loading std.env(body)
+# Loading work.tb_tpu_mv_element(mixed)#1
+# Loading work.tpu_mv_element(structure)#1
+# Loading work.regld(behavior)#1
+# Loading work.reg(behavior)#1
+# Loading work.multiplier(behavior)#1
+# Loading work.adder(behavior)#1
+do tb_TPU_MV_Element.do
+run 160
+run 20
+run 20
+quit -sim
+# End time: 12:00:27 on Jan 20,2022, Elapsed time: 0:02:03
+# Errors: 0, Warnings: 0
