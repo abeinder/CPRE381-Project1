@@ -3,7 +3,7 @@ Reading pref.tcl
 # 2021.2
 
 # vsim -postsimdataflow -debugdb -c -voptargs="+acc" tb -do "../testpy/modelsim_framework.do" 
-# Start time: 11:29:55 on Mar 27,2022
+# Start time: 11:39:26 on Mar 27,2022
 # ** Note: (vsim-8009) Loading existing optimized design _opt
 # //  Questa Sim-64
 # //  Version 2021.2 linux_x86_64 Apr 14 2021
@@ -73,10 +73,10 @@ Reading pref.tcl
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ns  Iteration: 1  Instance: /tb/MyMips/X_ALU/MUX_Op
 # ** Note: Data structure takes 30804904 bytes of memory
-#          Process time 0.33 seconds
+#          Process time 0.35 seconds
 #          stop
 #    Time: 8480 ns  Iteration: 1  Instance: /tb
 # Break in Process P_DUMP_STATE at /home/abeinder/CPRE381/CPRE381-Project1/Project/cpre381-toolflow/internal/testpy/tb.vhd line 146
 # Stopped at /home/abeinder/CPRE381/CPRE381-Project1/Project/cpre381-toolflow/internal/testpy/tb.vhd line 146
-# End time: 11:29:57 on Mar 27,2022, Elapsed time: 0:00:02
+# End time: 11:39:28 on Mar 27,2022, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 6
