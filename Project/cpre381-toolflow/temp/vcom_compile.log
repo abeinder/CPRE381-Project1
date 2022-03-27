@@ -1,0 +1,354 @@
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:49 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/MIPS_types.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package MIPS_types
+-- Compiling package body MIPS_types
+-- Loading package MIPS_types
+End time: 11:29:49 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:49 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work internal/testpy/tb.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_textio
+-- Loading package ENV
+-- Compiling entity tb
+-- Compiling architecture mixed of tb
+End time: 11:29:49 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:50 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/MIPS_types.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package MIPS_types
+-- Compiling package body MIPS_types
+-- Loading package MIPS_types
+End time: 11:29:50 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:50 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/MIPS_Processor.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MIPS_types
+-- Compiling entity MIPS_Processor
+-- Compiling architecture structure of MIPS_Processor
+End time: 11:29:50 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:50 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/mem.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mem
+-- Compiling architecture rtl of mem
+End time: 11:29:50 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:50 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Fetch/pc.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity pc
+-- Compiling architecture structural of pc
+End time: 11:29:50 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:50 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Fetch/fetch.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fetch
+-- Compiling architecture structural of fetch
+End time: 11:29:50 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:50 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Adders/fullAdder.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fullAdder
+-- Compiling architecture structure of fullAdder
+End time: 11:29:50 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:50 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Adders/rippleAdder_N.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity rippleAdder_N
+-- Compiling architecture structural of rippleAdder_N
+End time: 11:29:50 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:50 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Adders/halfAdder.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity halfAdder
+-- Compiling architecture structure of halfAdder
+End time: 11:29:50 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:50 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Adders/onesComp_N.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity onesComp_N
+-- Compiling architecture structural of onesComp_N
+End time: 11:29:51 on Mar 27,2022, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:51 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Adders/AddSub_N.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity AddSub_N
+-- Compiling architecture structural of AddSub_N
+End time: 11:29:51 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:51 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Registers/decode5to1.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity decode5to1
+-- Compiling architecture structure of decode5to1
+End time: 11:29:51 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:51 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Registers/reg_N.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg_N
+-- Compiling architecture structural of reg_N
+End time: 11:29:51 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:51 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Registers/dffg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dffg
+-- Compiling architecture mixed of dffg
+End time: 11:29:51 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:51 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Registers/regFile.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MIPS_types
+-- Compiling entity regFile
+-- Compiling architecture structural of regFile
+End time: 11:29:51 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:51 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/BasicGates/org2.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity org2
+-- Compiling architecture dataflow of org2
+End time: 11:29:51 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:51 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/BasicGates/xorg2.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xorg2
+-- Compiling architecture dataflow of xorg2
+End time: 11:29:51 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:51 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/BasicGates/invg.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity invg
+-- Compiling architecture dataflow of invg
+End time: 11:29:51 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:51 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/BasicGates/andg2.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity andg2
+-- Compiling architecture dataflow of andg2
+End time: 11:29:52 on Mar 27,2022, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:52 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/BarrelShifter/barrelshifter.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity barrelshifter
+-- Compiling architecture mixed of barrelshifter
+End time: 11:29:52 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:52 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/BarrelShifter/barrelshift_layer.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity barrelshift_layer
+-- Compiling architecture structural of barrelshift_layer
+End time: 11:29:52 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:52 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Control/control.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity control
+-- Compiling architecture structural of control
+End time: 11:29:52 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:52 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/ALU/ALU.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package MIPS_types
+-- Compiling entity ALU
+-- Compiling architecture structural of ALU
+End time: 11:29:52 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:52 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/ALU/equalZero.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity equalZero
+-- Compiling architecture dataflow of equalZero
+End time: 11:29:52 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:52 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/ALU/Bit16_32.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Bit16_32
+-- Compiling architecture dataflow of Bit16_32
+End time: 11:29:52 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:52 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Logic/xor_N.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xor_N
+-- Compiling architecture structural of xor_N
+End time: 11:29:52 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:52 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Logic/inv_N.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity inv_N
+-- Compiling architecture structural of inv_N
+End time: 11:29:53 on Mar 27,2022, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:53 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Logic/and_N.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity and_N
+-- Compiling architecture structural of and_N
+End time: 11:29:53 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:53 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Logic/or_N.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity or_N
+-- Compiling architecture structural of or_N
+End time: 11:29:53 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:53 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Mux/mux32t1_32.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MIPS_types
+-- Compiling entity mux32t1_32
+-- Compiling architecture dataflow of mux32t1_32
+End time: 11:29:53 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:53 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Mux/mux2t1_N.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2t1_N
+-- Compiling architecture structural of mux2t1_N
+End time: 11:29:53 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:53 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Mux/mux32t1_8.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MIPS_types
+-- Compiling entity mux32t1_8
+-- Compiling architecture dataflow of mux32t1_8
+End time: 11:29:53 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
+QuestaSim-64 vcom 2021.2 Compiler 2021.04 Apr 14 2021
+Start time: 11:29:53 on Mar 27,2022
+vcom -2008 -work internal/ModelSimContainer/work proj/src/TopLevel/Mux/mux2t1.vhd 
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux2t1
+-- Compiling architecture structure of mux2t1
+End time: 11:29:53 on Mar 27,2022, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0
